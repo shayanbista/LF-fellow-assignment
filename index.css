@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.pl-5 {
+  padding-left: 15px;
+}
+
+.border-gray {
+  border: 1px solid #e2e6ee;
+}
+
+#main {
+  padding: 34px 24px 0 24px;
+}
+
+#main-wrapper {
+  display: flex;
+}
+.aside-menu {
+  background-color: #f7f9fc;
+  width: 355.56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-menu-container {
+  padding: 0 48px;
+}
+
+.text-header {
+  font-size: 12px;
+  font-family: "DM Sans", sans-serif;
+  color: #79819a;
+}
+
+.quote {
+  padding: 32px 0 0 0;
+}
+
+.quote h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #47516b;
+}
+.social-links > h4 {
+  font-size: 12px;
+  font-family: "DM Sans", sans-serif;
+  color: #79819a;
+  margin-bottom: 20px;
+}
+
+.quote .author-name {
+  font-size: 12px;
+  font-weight: 400;
+  color: #79819a;
+}
+
+.user-profile {
+  padding: 32px 0;
+}
+
+.user-profile p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.aside-menu .user-name {
+  font-size: 32px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.aside-menu .user-designation {
+  font-size: 24px;
+  font-weight: 500;
+  color: blueviolet;
+}
+
+.aside-menu img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.social-links,
+.social-media {
+  padding: 32px 0;
+}
+
+.social-links-item img,
+.social-media img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.social-links-item {
+  display: flex;
+  padding: 0 0 24px 0;
+  align-items: center;
+}
+
+.social-links-item label {
+  font-size: 12px;
+}
+
+.social-links-item h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #47516b;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.latest-project > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.latest-project-items-radius-left {
+  background-color: #f7f9fc;
+  border-radius: 8.08px 0px 0px 8.08px;
+  padding: 24px;
+  margin: 0px 8px 0px 0px;
+  flex: 1;
+}
+.latest-project-items {
+  background-color: #f7f9fc;
+  border-radius: 0px 8.08px 8.08px 0px;
+  padding: 24px;
+  margin: 0px 8px 0px 0px;
+  flex: 1;
+}
+
+.latest-project-body {
+  padding-left: 16px;
+}
+.latest-project-link {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.latest-project-link > a {
+  padding-left: 16px;
+}
+
+.education-item {
+  margin: 0px 8px 0px 0px;
+  background-color: #f7f9fc;
+  padding: 16.16px 24.24px 16.16px 24.24px;
+  flex: 1;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.card-label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-title {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.card-date {
+  font-size: 10px;
+  font-weight: 400;
+  color: #79819a;
+}
+.skills-collection {
+  display: flex;
+  color: #9251f7;
+}
+
+.skills-wrapper > div {
+  background-color: #f7f9fc;
+  padding: 16px;
+  margin: 8px;
+  min-height: 84px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.skills-wrapper .card {
+  flex: 1;
+}
+.skills-border-left {
+  border-radius: 8.08px 0px 0px 8.08px;
+}
+
+.skills-border-right {
+  border-radius: 0px 8.08px 8.08px 0px;
+}
+
+.skills-collection:first-of-type {
+  display: flex;
+  align-items: center;
+}
+.tools-wrapper .card {
+  flex: 1;
+  background-color: #f7f9fc;
+  padding: 16px;
+  margin: 0 8px 0 0;
+  text-align: center;
+}
+
+.tools-wrapper .flex {
+  margin-top: 8px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+section {
+  padding: 32px;
+}
+
+/* experience-wrapper */
+.experience-wrapper .experience-brand {
+  flex: 20%;
+}
+
+.experience-wrapper .experience-description {
+  flex: 80%;
+}
+
+.experience-wrapper {
+  align-items: start;
+}
+
+.node {
+  margin-left: 25px;
+}
+
+.experience-description {
+  color: #79819a;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.card-description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12.12px;
+}
+.card-inside-section {
+  margin-left: 25%;
+  gap: 50%;
+}
+
+.card-inside-section > div:first-child {
+  border-bottom: 1px solid black;
+  border-width: 10%;
+}
+.education-item h4,
+h3,
+p {
+  font-family: "DM Sans", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-wrapper {
+    flex-wrap: wrap;
+  }
+  .aside-menu {
+    width: 100%;
+  }
+  .latest-project > div {
+    flex-direction: column;
+  }
+  .experience-wrapper {
+    flex-direction: column;
+  }
+  .education .education-wrapper {
+    display: block;
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .education-item {
+    margin-bottom: 12px;
+  }
+
+  .tools-wrapper .flex {
+    flex-wrap: wrap;
+  }
+  .skills-wrapper.flex {
+    flex-direction: column;
+    align-items: self-start;
+    display: block;
+  }
+  .aside-menu {
+    padding: 0;
+  }
+  .link-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .experience-wrapper {
+    padding: 20px;
+  }
+  .experience-wrapper .experience-description {
+    padding-left: 14px;
+  }
+  .experience-wrapper .experience-date {
+    padding-left: 14px;
+  }
+  .skills-border-left.card {
+    justify-content: space-around;
+  }
+  .unorderlist {
+    list-style-type: disc;
+    padding-left: 12px;
+  }
+  /*
+  .experience-brand .card-description {
+    margin-bottom: 12px;
+  } */
+}
